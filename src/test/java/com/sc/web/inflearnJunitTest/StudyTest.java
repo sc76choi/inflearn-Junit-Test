@@ -25,7 +25,7 @@ import org.junit.jupiter.params.provider.ValueSource;
 @TestMethodOrder(MethodOrderer.OrderAnnotation.class)
 class StudyTest {
 	
-	int value = 1;
+	int value = 1; // TestInstance Lifecycle.PER_CLASS로 value값 증가 가능
 
 	@Order(1)
 	@DisplayName("순서 1")
